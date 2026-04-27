@@ -1,4 +1,4 @@
-# test-inbox — LangGraph Bridge POC
+# test-inbox — Prueba de Concepto del Puente LangGraph
 
 Pequeña interfaz para probar procesos e inbox.
 
