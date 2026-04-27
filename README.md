@@ -53,3 +53,9 @@ python -m http.server 5500 -d test-inbox
 ```
 
 Luego abre `http://localhost:5500`.
+
+## Specs
+
+| Spec | Brief Summary | Implemented |
+|---|---|---|
+| [Visual Palette Change to Yellow and Black](docs/specs/SPEC_VISUAL_PALETTE_CHANGE_YELLOW_BLACK.md) | Migrate CSS tokens and UI styles in style.css to a yellow and black color palette for improved visual consistency. | No |
