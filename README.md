@@ -53,3 +53,9 @@ python -m http.server 5500 -d test-inbox
 ```
 
 Luego abre `http://localhost:5500`.
+
+## Specs
+
+| Spec | Brief Summary | Implemented |
+|---|---|---|
+| [Yellow and Black Color Palette Update](docs/specs/SPEC_YELLOW_BLACK_COLOR_PALETTE_UPDATE.md) | Replace the current color palette with yellow and black tones in the application to enhance visual identity. | No |

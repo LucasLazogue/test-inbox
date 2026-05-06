@@ -177,7 +177,7 @@ export default function App(){
 
       {/* Composer shown when there's a current task */}
       {currentTask ? (
-        <div style={{marginTop:12,display:'flex',gap:8,alignItems:'center'}}>
+        <div className="composer">
           <input
             className="short"
             style={{flex:1}}
