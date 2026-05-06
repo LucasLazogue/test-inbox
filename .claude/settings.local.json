@@ -1,0 +1,6 @@
+{
+  "enabledMcpjsonServers": [
+    "agent-planner"
+  ],
+  "enableAllProjectMcpServers": true
+}
