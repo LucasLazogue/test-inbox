@@ -1,39 +1,39 @@
 :root{
-  --bg:#0f1724; /* dark navy */
-  --card:#0b1220;
-  --accent:#6ee7b7;
-  --muted:#9aa4b2;
-  --glass: rgba(255,255,255,0.03);
-  --bubble-in:#0b6e4f;
-  --bubble-out:#1f2937;
+  --bg:#0a0a0a;
+  --card:#111111;
+  --accent:#FFCC00;
+  --muted:#b3a44e;
+  --glass: rgba(255,204,0,0.05);
+  --bubble-in:#FFCC00;
+  --bubble-out:#1a1a1a;
 }
 *{box-sizing:border-box}
 html,body{height:100%;margin:0;font-family:Inter,Segoe UI,Roboto,Arial}
-body{background:linear-gradient(180deg,#071023 0%, #081226 100%);color:#e6eef6}
-.container{max-width:980px;margin:28px auto;padding:20px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);box-shadow:0 6px 30px rgba(2,6,23,0.6)}
+body{background:linear-gradient(180deg,#000000 0%, #0d0d0d 100%);color:#f5f5f0}
+.container{max-width:980px;margin:28px auto;padding:20px;border-radius:12px;background:linear-gradient(180deg,rgba(255,204,0,0.03),transparent);box-shadow:0 6px 30px rgba(0,0,0,0.7)}
 header h1{margin:0;font-size:20px}
 .muted{color:var(--muted);margin:4px 0 12px}
 .controls{display:block}
-#processDef{width:100%;min-height:160px;padding:12px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:var(--glass);color:#dbeafe;font-family:monospace;resize:vertical}
+#processDef{width:100%;min-height:160px;padding:12px;border-radius:8px;border:1px solid rgba(255,204,0,0.08);background:var(--glass);color:#f5f5f0;font-family:monospace;resize:vertical}
 .controls-row{display:flex;gap:12px;align-items:center;margin-top:10px}
-.primary{background:var(--accent);color:#042016;border:none;padding:10px 14px;border-radius:8px;cursor:pointer;font-weight:600}
-button{padding:8px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);background:transparent;color:var(--muted);cursor:pointer}
+.primary{background:var(--accent);color:#000000;border:none;padding:10px 14px;border-radius:8px;cursor:pointer;font-weight:600}
+button{padding:8px 12px;border-radius:8px;border:1px solid rgba(255,204,0,0.08);background:transparent;color:var(--muted);cursor:pointer}
 .status{margin-left:auto;color:var(--muted);font-size:13px}
 .chat{margin-top:18px;display:flex;flex-direction:column;gap:12px;max-height:480px;overflow:auto;padding-right:6px}
-.msg{max-width:78%;padding:12px;border-radius:12px;box-shadow:0 4px 14px rgba(2,6,23,0.5)}
-.msg.in{background:linear-gradient(180deg,var(--bubble-in),#134b3a);align-self:flex-start}
-.msg.out{background:var(--bubble-out);color:#d1d5db;align-self:flex-end}
+.msg{max-width:78%;padding:12px;border-radius:12px;box-shadow:0 4px 14px rgba(0,0,0,0.6)}
+.msg.in{background:linear-gradient(180deg,var(--bubble-in),#c8a000);align-self:flex-start;color:#000000}
+.msg.out{background:var(--bubble-out);color:#e0dcc8;align-self:flex-end}
 .meta{font-size:12px;color:var(--muted);margin-bottom:6px}
 .task-actions{margin-top:8px;display:flex;gap:8px}
-.pill{padding:8px 12px;border-radius:999px;background:rgba(0,0,0,0.18);border:1px solid rgba(255,255,255,0.03);cursor:pointer}
+.pill{padding:8px 12px;border-radius:999px;background:rgba(255,204,0,0.15);border:1px solid rgba(255,204,0,0.08);cursor:pointer;color:#FFCC00}
 .footer{margin-top:14px;text-align:center;color:var(--muted)}
-input[type=text], textarea.short{padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:#e6eef6}
+input[type=text], textarea.short{padding:8px;border-radius:8px;border:1px solid rgba(255,204,0,0.08);background:transparent;color:#f5f5f0}
 .widget-boolean{display:flex;gap:8px}
-.widget-boolean .pill{background:linear-gradient(180deg,#0f3e29,#083421);color:#dff7ea}
+.widget-boolean .pill{background:linear-gradient(180deg,#FFCC00,#c8a000);color:#000000}
 .widget-text{display:flex;gap:8px}
 
 /* scroll styling */
 .chat::-webkit-scrollbar{width:10px}
-.chat::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.04);border-radius:999px}
+.chat::-webkit-scrollbar-thumb{background:rgba(255,204,0,0.12);border-radius:999px}
 
 @media (max-width:640px){.container{margin:10px;padding:12px}.msg{max-width:92%}}
